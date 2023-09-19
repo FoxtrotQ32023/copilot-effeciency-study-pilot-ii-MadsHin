@@ -33,3 +33,9 @@ Your output should always contain two digits after the decimal point.
 3.20 -15.00
 3.20 -15.00
 ```
+
+## __Problem Description__
+I am tasked with finding the airport most optimal to be a central hub.
+A central hub is by definition the airport, which minimizes the distance to the airport furthest away. 
+The task includes several individual problems stored in the same file (airlinehub.in). Each individual problem is listed in order, and each problem starts with an integer, n, no larger than 1000 that describes the number of airports contained in this specific problem. Then, n coordinates follow, having each coordinate on seperate lines.
+There are no more problems when you reach the EOF.
