@@ -15,5 +15,14 @@ def test_calculate_distance(airport_finder_sut, point_a: tuple[float, float], po
     assert airport_finder_sut.calculate_distance(point_a, point_b) == expected
 
 
+
+def test_optimal_airport_hub(airport_finder_sut):
+
+    input = [(1,1),(2,2),(3,3)]
+
+    assert airport_finder_sut.optimal_airport_hub(input) == (2,2)
+
+
 def test_find_airport_hubs(airport_finder_sut):
     assert airport_finder_sut.find_airport_hubs() == list[(3.20,-15.00),(3.20,-15.00)]
+
