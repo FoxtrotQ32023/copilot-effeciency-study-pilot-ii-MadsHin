@@ -27,4 +27,6 @@ def is_int(line):
     else:
         return False
 
-# Function that 
+# Function that divides the list into sublists based on the integers in the list and returns the sublists
+
+
