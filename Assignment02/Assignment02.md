@@ -41,3 +41,8 @@ bananananaspaj
 1 3 5 7
 1 3 5 7 9 12
 ```
+
+## __Problem Description__
+I am tasked with finding the number of occurences (if any) of a number of substrings, n, in one string, S. The sum of chars across the n substrings cannot exceed 100.000, and the number of chars in S cannot exceed 200.000. 
+There are multiple independent problems listed in the same file, and so an additional task is handling how to loop through the file to find and solve one problem at a time. The file is terminated by EOF.
+As per the example we are handling the substring pattern matching with case sensitivty.
