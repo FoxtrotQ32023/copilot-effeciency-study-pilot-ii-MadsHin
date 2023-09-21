@@ -86,11 +86,3 @@ def solve_problem(file_name):
             else:
                 with open("output.ans", "a", encoding="utf8") as file:
                     file.write("\n")
-            
-
-            
-
-
-solve_problem("/workspaces/copilot-effeciency-study-pilot-ii-MadsHin/Assignment02/stringmultimatching.in")
-        
-        
